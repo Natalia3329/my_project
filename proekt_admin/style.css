@@ -1,0 +1,68 @@
+                                                                .sha {
+                                                                        box-shadow: 1px 1px 10px 5px gray
+                                                                    }
+                                                                    
+                                                                    .name {
+                                                                        text-decoration: underline;
+                                                                    }
+                                                                    
+                                                                    p {
+                                                                        text-align: center;
+                                                                    }
+                                                                    
+                                                                    .me {
+                                                                        width: 35vw;
+                                                                    }
+                                                                    
+                                                                    .to {
+                                                                        background-color: darkgrey;
+                                                                    }
+                                                                    
+                                                                    .ti {
+                                                                        background-color: khaki;
+                                                                    }
+                                                                    
+                                                                    .tex {
+                                                                        font-style: italic;
+                                                                        color: azure;
+                                                                    }
+                                                                    
+                                                                    .tm-container-baner {
+                                                                        background-color: lavender;
+                                                                        width: calc(100% - 50px);
+                                                                    }
+                                                                    
+                                                                    @keyframes my-move {
+                                                                        from {
+                                                                            transform: rotate(45deg);
+                                                                        }
+                                                                        to {
+                                                                            transform: rotate(0deg)
+                                                                        }
+                                                                    }
+                                                                    
+                                                                    .tm-banner-text {
+                                                                        text-align: center;
+                                                                        font-size: 40px;
+                                                                        color: maroon;
+                                                                        animation-name: my-move;
+                                                                        animation-duration: 3s;
+                                                                    }
+                                                                    
+                                                                    .ex {
+                                                                        width: 70%;
+                                                                        background-color: antiquewhite;
+                                                                        margin: 10px auto;
+                                                                        text-align: justify;
+                                                                        padding: 20px;
+                                                                        box-sizing: border-box;
+                                                                    }
+                                                                    
+                                                                    .b {
+                                                                        border: solid thick red;
+                                                                        border-radius: 1em;
+                                                                        max-width: 620px;
+                                                                        background-color: burlywood;
+                                                                        color: indigo;
+                                                                    }
+                                                                }
